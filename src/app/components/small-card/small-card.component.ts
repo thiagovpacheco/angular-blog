@@ -8,9 +8,11 @@ import { Component, Input, OnInit } from '@angular/core';
 export class SmallCardComponent implements OnInit {
   
   @Input()
-  photoCover:string = "https://t.ctcdn.com.br/9KZ0WLOfJFYa4ZYBsjQ82Gpa6dM=/640x360/smart/i821523.png";
+  photoCover:string = "";
   @Input()
-  cardTitle:string = "Saiu a nova versão do Angular"
+  cardTitle:string = ""
+  @Input()
+  Id:string = "0"
 
   constructor(){}
 
